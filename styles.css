@@ -1,0 +1,138 @@
+body{
+    margin: 0 0;
+    font-family: sans-serif;
+}
+a{
+    color:white;
+}
+p{
+    font-size: 70%;
+    margin: 3% 0;
+}
+hr{
+    border-width: 85%;
+}
+/* buttons style */
+button{
+    padding: 1.2% 3.5%;
+    border-radius: 25px;
+    color: white;
+}
+.dark{
+    background-color: rgb(42, 42, 42);
+    border: 3px solid rgb(42, 42, 42);
+}
+.dark:hover{
+    padding: 1.3% 3.8%;
+    background-color: black;
+    border: 3px solid black;
+    font-weight: bold;
+}
+.light{
+    background-color: transparent;
+    border: 2px solid white;
+}
+.light:hover{
+    padding: 1.3% 3.8%;
+    background-color: rgba(0, 0, 0, 0.171);
+    font-weight: bold;
+}
+/* navbar */
+.navbar{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 0 15% 0 15%;
+}
+#brand{
+    margin-right: 30%;
+    font-size: x-large;
+    font-weight: bold;
+}
+.navbar ul{
+    margin: 0;
+    overflow: auto;
+}
+.navbar li{
+    float: left;
+    margin: 15px 18px;
+    list-style: none;
+    color: white;
+}
+.navbar li a{
+    padding: 0 3px;
+    text-decoration: none;
+    color: white;
+}
+/* main page */
+.main{
+    background-color: rgb(29, 117, 222);
+    color:white;
+    padding: 6% 14%;
+}
+.main h1{
+    font-size: 250%;
+    margin: 3% 0;
+}
+.main h3{
+    font-size: 145%;
+    font-weight: 500;
+    margin: 3% 0;
+}
+/* why go premium */
+.why{
+    padding: 3% 14%;
+    text-align: center;
+}
+.why h2{
+    font-size: 250%;
+    margin-bottom: 3%;
+}
+.why .row{
+    display: -moz-grid-group;
+}
+.why .col{
+    display: inline-block;
+    margin: 2% auto;
+}
+.why img{
+    width: 50%;
+}
+.why .img#sec{
+    size: auto;
+}
+/* premium selection */
+.selection{
+    text-align: center;
+}
+.selection a,p{
+    color: black;
+}
+.selection span{
+    border: 2px solid black;
+}
+.selection li{
+    color: deeppink;
+}
+
+/* footer section */
+footer{
+    background-color: black;
+    color: white;
+    padding: 4% 14%;
+}
+footer ul{
+    overflow: hidden;
+}
+footer li{
+    float: left;
+    list-style: none;
+    margin: 8px 6px;
+}
+footer ul .innerlist{
+    overflow: auto;
+}
+footer ul .innerlist li{
+    float: none;
+    list-style: none;
+}
